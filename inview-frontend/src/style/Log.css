@@ -1,0 +1,21 @@
+.log-container{
+    border:1px solid #a3a8ef;
+    width: 100%;
+    min-width: 800px;
+    height: 75vh;
+    text-align: left;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    line-height: 2; 
+    padding: 20px;
+}
+
+.el-row {
+    margin-bottom: 10px;
+}
+
+.el-select{
+    width: 30%;
+    margin: 0 10px;
+}
+

@@ -1,0 +1,233 @@
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.el-button {
+  background-color: #939aec;
+  border-color: #939aec;
+  color: #fff;
+  /* 如果需要更改文字颜色 */
+}
+
+.el-button:hover,
+.el-button:focus {
+  background-color: #8287d6;
+  /* 悬浮时的背景颜色 */
+  border-color: #8287d6;
+  /* 悬浮时的边框颜色 */
+  color: #fff;
+  /* 悬浮时的文字颜色 */
+}
+
+.el-button:active {
+  background-color: #6f73b3;
+  /* 点击时的背景颜色 */
+  border-color: #6f73b3;
+  /* 点击时的边框颜色 */
+  color: #fff;
+  /* 点击时的文字颜色 */
+}
+
+.border-button {
+  background-color: transparent;
+  border-color: #939aec;
+  color: #939aec;
+  /* 如果需要更改文字颜色 */
+}
+
+.border-button:hover,
+.border-button:focus {
+  background-color: #939aec;
+  /* 悬浮时的背景颜色 */
+  border-color: #939aec;
+  /* 悬浮时的边框颜色 */
+  color: #fff;
+  /* 悬浮时的文字颜色 */
+}
+
+.border-button:active {
+  background-color: #939aec;
+  /* 点击时的背景颜色 */
+  border-color: #939aec;
+  /* 点击时的边框颜色 */
+  color: #fff;
+  /* 点击时的文字颜色 */
+}
+
+.text-button {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  color: #939aec;
+}
+
+.text-button:hover,
+.text-button:focus {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  color: #403683;
+}
+
+.text-button:active {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  color: #403683;
+}
+
+
+
+.red-button {
+  color: #ff4d4f;
+  border-color: #ff4d4f;
+  background-color: transparent;
+  transition: all 0.3s;
+}
+
+.red-button:hover {
+  color: #fff;
+  background-color: #ff4d4f;
+  border-color: #ff4d4f;
+}
+
+.red-button:active {
+  color: #fff;
+  background-color: #d9363e;
+  border-color: #d9363e;
+}
+
+.red-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 77, 79, 0.2);
+}
+
+.el-row {
+  text-align: left;
+}
+
+.el-pagination.is-background .el-pager li.is-active {
+  background-color: #939aec;
+}
+
+.container {
+  min-height: 95vh;
+  margin: 0;
+  padding: 0;
+}
+
+.el-header {
+  /* background-color: #B3C0D1; */
+  color: #333;
+  text-align: left;
+  line-height: 80px;
+  padding-left: 30px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.el-header span {
+  border-bottom: 5px solid #939aec;
+}
+
+.el-aside {
+  color: #333;
+  text-align: center;
+  min-height: 95vh;
+  border-right: 1px solid #939aec;
+}
+
+.el-main {
+  /* background-color: #E9EEF3; */
+  color: #333;
+  text-align: center;
+  line-height: 80px;
+  padding: 30px;
+}
+
+/* 自定义高亮颜色 */
+.el-menu-vertical-demo .el-menu-item.is-active {
+  background-color: #939aec !important;
+  color: #fff !important;
+}
+
+/* 菜单字体靠左 */
+.el-menu-vertical-demo .el-menu-item {
+  text-align: left;
+}
+
+.el-submenu {
+  text-align: left;
+}
+
+/* 图标和字拉开一些距离 */
+.el-menu-vertical-demo .el-menu-item span {
+  text-align: left;
+  margin-left: 10px;
+}
+
+
+
+body>.el-container {
+  margin-bottom: 40px;
+}
+
+.logout-button {
+  float: right;
+  margin-top: 15px;
+}
+
+
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e0e2fa;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+* {
+  scrollbar-width: thin;
+  /* 滚动条宽度 */
+  scrollbar-color: #e0e2fa transparent;
+}
+
+.el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active {
+  color: #939aec;
+  /* 选中标签的文字颜色 */
+}
+
+.el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active {
+  color: #939aec;
+  font-weight: bolder;
+  /* 选中标签的文字颜色 */
+}
+
+.el-tabs--border-card>.el-tabs__header .el-tabs__item:hover {
+  color: #939aec !important;
+}
+
+.el-switch {
+  --el-switch-on-color: #939aec;
+}
+
+.el-radio__input.is-checked .el-radio__inner {
+  border-color: #939aec; /* 选中状态的边框颜色 */
+  background-color: #939aec; /* 选中状态的背景颜色 */
+}
+
+.el-radio__input.is-checked + .el-radio__label {
+  color: #939aec; /* 选中状态的文字颜色 */
+}
+
+.margin-right-20 {
+  margin-right: 20px;
+}

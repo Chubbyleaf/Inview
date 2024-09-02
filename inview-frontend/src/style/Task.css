@@ -1,0 +1,116 @@
+.el-tabs {
+    height: 82vh;
+    overflow-y: auto;
+}
+
+.select-container {
+    margin-top: -20px;
+}
+
+.step-button {
+    margin-left: 10px;
+    width: 200px;
+}
+
+.add-task-form {
+    width: 80%;
+    min-width: 500px;
+    margin-top: 30px;
+}
+
+.add-task-container .div {
+    width: 80%;
+}
+
+.camera-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#play-video-icon {
+    height: 30px;
+    cursor: pointer;
+}
+
+.camera-view-container {
+    width: 50%;
+}
+
+#header-row {
+    height: 50px;
+}
+
+.select-style {
+    width: 200px;
+    margin: 0 10px;
+}
+
+.el-steps {
+    width: 100%;
+}
+
+.back-button-container {
+    justify-content: flex-start;
+}
+
+.shot-button-container {
+    justify-content: left;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.screenshot-container {
+    width: 30%;
+}
+
+.screenshot-container img {
+    width: 100%;
+}
+
+
+.step-content {
+    justify-content: center;
+    text-align: center;
+}
+
+.time-period {
+    width: 100%;
+    justify-content: flex-start;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.time-period .el-button {
+    margin-left: 10px;
+}
+
+.time-period .el-time-picker {
+    margin-right: 10px;
+}
+
+#no-fund-text {
+    color: #939aec;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#annotation-canvas {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#result-operations-container{
+    justify-content: center;
+    align-items: center;
+}
+
+.result-image {
+    width: 95%;
+    height: auto;
+    cursor: pointer; 
+    /* transition: transform 0.2s; */
+}

@@ -1,0 +1,20 @@
+.el-descriptions-item__container {
+  line-height: 32px !important;
+  /* 增加行高 */
+  font-size: 14px;
+}
+
+
+.el-descriptions-item__label {
+  width: 120px !important;
+}
+
+.button-row {
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.confirm-edit-text {
+  float: right;
+  color: #a3a8ef;
+}

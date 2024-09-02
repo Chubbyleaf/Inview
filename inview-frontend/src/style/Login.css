@@ -1,0 +1,43 @@
+.container {
+  /* background: linear-gradient(to bottom right, #ff0000, #0000ff); */
+  height: 95vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+}
+
+.login-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  text-align: center;
+  height:270px;
+  min-width: 700px;
+  background-color: #f0f1fc;
+  box-shadow: 5px 5px 10px #939aec;
+  /* 阴影效果 */
+  padding: 30px;
+}
+
+.el-form .el-form-item .el-input {
+  width: 95%;
+  min-width: 200px;
+}
+
+#login-btn1 {
+  width: 40%;
+  margin-left: 80px
+}
+
+#login-btn2 {
+  width: 40%;
+}
+
+#login-logo {
+  width: 320px;
+}

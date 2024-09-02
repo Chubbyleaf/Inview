@@ -1,0 +1,30 @@
+.el-table {
+  width: 100%;
+}
+
+.el-table .odd-row {
+  background: oldlace;
+}
+
+.el-table .even-row {
+  background: #f0f9eb;
+}
+
+.el-form-item {
+  text-align: left;
+}
+
+.camera-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#play-video-icon{
+  height: 30px;
+  cursor: pointer;
+}
+
+.camera-view-container{
+  width: 200px;
+}

@@ -1,0 +1,72 @@
+.overview-title {
+  font-weight: bolder;
+  width: 100%;
+  text-align: left;
+  /* height: 50px; */
+}
+
+.overview-box1 {
+  border: 1px solid #8287d6;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.overview-box2 {
+  border: 1px solid #8287d6;
+  border-radius: 10px;
+  width: 100%;
+  height: 250px;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+
+.overview-subtitle {
+  color: #2b2075;
+  margin-left: 15px;
+  font-weight: bolder;
+  height: 50px;
+}
+
+.chart-container {
+  width: 100%;
+  height: 100%;
+}
+
+.info-title {
+  height: 30px;
+  text-align: center;
+  font-size: 12px;
+
+}
+
+.info-data {
+  height: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #2b2075;
+}
+
+.info-row{
+  margin-bottom:30px;
+}
+
+#mem-pieChart-container{
+  height: 80%;
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+}
+
+/* el-descriptions-item 文字居中 */
+.el-descriptions__body .el-descriptions__table.is-bordered .el-descriptions__cell {
+  text-align: center;
+}
